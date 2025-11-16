@@ -12,7 +12,7 @@
             ],
             "activate": false,
             "terminal": false,
-            "icon": "{{ MENU_DIR }}/console_shortcut.{{ ICON_EXT }}",
+            "icon": "{{ MENU_DIR }}/miniforge_console_shortcut.{{ ICON_EXT }}",
             "description": "Launches a terminal window with conda activated.",
             "platforms": {
                 "win": {
