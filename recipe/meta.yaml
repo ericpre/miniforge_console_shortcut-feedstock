@@ -16,6 +16,7 @@ test:
   commands:
     - if not exist %PREFIX%\\Menu\\console_shortcut_menu.json exit 1 # [win]
     - if not exist %PREFIX%\\Menu\\console_shortcut.ico exit 1       # [win]
+    - dir %PREFIX%\\Menu                                             # [win]
 
 about:
   home: https://github.com/conda-forge/miniforge_console_shortcut-feedstock
